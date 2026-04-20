@@ -1,0 +1,170 @@
+/*----------------------------------------------------------------------------
+    generic
+----------------------------------------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*----------------------------------------------------------------------------
+    base
+----------------------------------------------------------------------------*/
+
+body {
+    font: 1.125rem "Roboto", sans-serif;
+}
+
+/*----------------------------------------------------------------------------
+    mise en page
+----------------------------------------------------------------------------*/
+.wrapper {
+    max-width: 1200px;
+    width:100%;
+    margin: 0 auto;
+    
+}
+
+/*----------------------------------------------------------------------------
+    element
+----------------------------------------------------------------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+h1{
+    font: bold 3.125rem/110% "Jost", sans-serif;
+    color: white;
+    
+}
+
+
+
+
+
+
+/*----------------------------------------------------------------------------
+    components
+----------------------------------------------------------------------------*/
+
+.header .wrapper{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 20px;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.hero{
+    background: url(../image/HERO.png) no-repeat top center/cover;
+    height: 650px;
+    
+}
+
+.hero .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 650px;
+} 
+
+.boite{
+    background-color: rgba(226, 82, 84, 0.90);
+    width: 587px;
+    height: 498px;
+    padding: 40px;
+}
+
+.desciption{
+    width: 588px;
+}
+
+.services{
+    background-color: #D6D6D6;
+    padding: 80px 0;
+}
+
+.services article{
+    
+    width: 383px;
+    padding: 20px;
+    gap: 30px;
+    background-color: white;
+}
+
+.article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.performance{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+
+}
+
+.conseils{
+    background: #8B2D2F url(../image/tuile-a-sauvegarder.png);
+    height: 654px;
+    padding: 80px 0;
+}
+
+.conseils article{
+    background-color: white;
+    height: 288px;
+    padding: 20px;
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 668px;
+
+}
