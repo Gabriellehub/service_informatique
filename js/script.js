@@ -6,5 +6,10 @@ for(var i=0;i<boutonmodale.length;i++){
 }
 
 function openmodale(){
+    modale.classList.add("visible");
+    modale.addEventListener("click",closemodale);
+}
 
+function closemodale(){
+    modale.classList.remove("visible");
 }
